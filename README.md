@@ -9,4 +9,4 @@ Create new Azure instance(VM) via terraform
 ```sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash```
 
 **Step 2:** Create authentication using a Service Principal with a Client Secret
-```az ad sp create-for-rbac --name "terraform-server"```
+```az ad sp create-for-rbac --name "terraform-server"``` [more](https://www.terraform.io/docs/providers/azurerm/guides/service_principal_client_secret.html)
