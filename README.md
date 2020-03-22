@@ -28,4 +28,4 @@ for testing connection:
 ```az login --service-principal -u $ARM_CLIENT_ID -p $ARM_CLIENT_SECRET --tenant $ARM_TENANT_ID```
 ```az login --service-principal --username 00000000-0000-0000-0000-000000000000 --password 00000000-0000-0000-0000-000000000000 --tenant 00000000-0000-0000-0000-000000000000```
 
-**Step 3:** Need to run command ```terraform init```
+**Step 3:** Need to run command ```terraform init``` in directory where is located your main file "main.tr". Additional libraries will be downloaded 
