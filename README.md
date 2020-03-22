@@ -1,0 +1,1 @@
+# laba9_terraform_create_vm_CLI
