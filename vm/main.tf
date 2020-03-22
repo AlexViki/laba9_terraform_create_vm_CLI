@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 variable "prefix" {
   default = "laba-9"
 }
